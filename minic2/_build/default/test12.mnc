@@ -1,0 +1,5 @@
+tab(bool) G[3] = {true, true, true};
+bool main(){
+    G[1] = true;
+    return G[2];
+}

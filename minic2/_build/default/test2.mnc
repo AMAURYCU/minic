@@ -1,0 +1,6 @@
+bool PARAM = (3==4);
+
+int f() {
+  putchar(4);
+  return 0;
+}

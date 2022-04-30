@@ -1,0 +1,9 @@
+int PARAM1 = 5;
+int PARAM2 = 4;
+bool PARAM3 = true;
+
+int f() {
+ PARAM1 = 3 + 3 * 5 / 2
+ PARAM3 = PARAM1 < PARAM2 
+ return 0;
+}

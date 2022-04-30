@@ -1,0 +1,7 @@
+# C:\OCaml64\home\Amaury\.opam\4.12.0+mingw64c\bin\dune.exe build
+# OCAMLPARAM: unset
+# Workspace root: "C:\\Users\\Amaury\\desktop\\minic3"
+# Auto-detected concurrency: 16
+# disable binary cache
+$ C:\OCaml64\home\Amaury\.opam\4.12.0+mingw64c\bin\ocamlfind.exe printconf path > C:\Users\Amaury\AppData\Local\Temp\dune02d5a6.output
+$ C:\OCaml64\home\Amaury\.opam\4.12.0+mingw64c\bin\ocamlc.opt.exe -config > C:\Users\Amaury\AppData\Local\Temp\dunecad532.output

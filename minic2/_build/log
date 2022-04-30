@@ -1,0 +1,139 @@
+# C:\OCaml64\home\Amaury\.opam\4.12.0+mingw64c\bin\dune.exe build
+# OCAMLPARAM: unset
+# Workspace root: "C:\\Users\\Amaury\\Desktop\\minic3\\minic2"
+# Auto-detected concurrency: 16
+# disable binary cache
+$ C:\OCaml64\home\Amaury\.opam\4.12.0+mingw64c\bin\ocamlc.opt.exe -config > C:\OCaml64\tmp\duneaee999.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dyn
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some
+#        External "C:/OCaml64/home/Amaury/.opam/4.12.0+mingw64c/lib/toplevel"
+#  ; ocaml_bin =
+#      External "C:\\OCaml64\\home\\Amaury\\.opam\\4.12.0+mingw64c\\bin"
+#  ; ocaml =
+#      Ok
+#        External
+#          "C:\\OCaml64\\home\\Amaury\\.opam\\4.12.0+mingw64c\\bin\\ocaml.exe"
+#  ; ocamlc =
+#      External
+#        "C:\\OCaml64\\home\\Amaury\\.opam\\4.12.0+mingw64c\\bin\\ocamlc.opt.exe"
+#  ; ocamlopt =
+#      Ok
+#        External
+#          "C:\\OCaml64\\home\\Amaury\\.opam\\4.12.0+mingw64c\\bin\\ocamlopt.opt.exe"
+#  ; ocamldep =
+#      Ok
+#        External
+#          "C:\\OCaml64\\home\\Amaury\\.opam\\4.12.0+mingw64c\\bin\\ocamldep.opt.exe"
+#  ; ocamlmklib =
+#      Ok
+#        External
+#          "C:\\OCaml64\\home\\Amaury\\.opam\\4.12.0+mingw64c\\bin\\ocamlmklib.opt.exe"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" :
+#            "C:\\OCaml64\\home\\Amaury\\.opam\\4.12.0+mingw64c\\lib"
+#        ; "DUNE_OCAML_STDLIB" :
+#            "C:/OCaml64/home/Amaury/.opam/4.12.0+mingw64c/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" : "C:\\Users\\Amaury\\Desktop\\minic3\\minic2"
+#        ; "INSIDE_DUNE" :
+#            "C:\\Users\\Amaury\\Desktop\\minic3\\minic2\\_build/default"
+#        ; "MANPATH" :
+#            "C:\\Users\\Amaury\\Desktop\\minic3\\minic2\\_build/install/default/bin"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "C:\\Users\\Amaury\\Desktop\\minic3\\minic2\\_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "C:\\Users\\Amaury\\Desktop\\minic3\\minic2\\_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "C:\\Users\\Amaury\\Desktop\\minic3\\minic2\\_build/install/default/lib/toplevel"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path =
+#      [ External "C:\\OCaml64\\home\\Amaury\\.opam\\4.12.0+mingw64c\\lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.12.0"
+#      ; standard_library_default =
+#          "C:/cygwin/home/appveyor/.opam/4.12.0+mingw64c/lib/ocaml"
+#      ; standard_library =
+#          "C:/OCaml64/home/Amaury/.opam/4.12.0+mingw64c/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "x86_64-w64-mingw32-gcc"
+#      ; ocamlc_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-mms-bitfields" ]
+#      ; ocamlc_cppflags = []
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-mms-bitfields" ]
+#      ; ocamlopt_cppflags = []
+#      ; bytecomp_c_compiler =
+#          [ "x86_64-w64-mingw32-gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-mms-bitfields"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lws2_32"; "-lversion" ]
+#      ; native_c_compiler =
+#          [ "x86_64-w64-mingw32-gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-mms-bitfields"
+#          ]
+#      ; native_c_libraries = [ "-lws2_32"; "-lversion" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "mingw64"
+#      ; asm = [ "x86_64-w64-mingw32-as" ]
+#      ; asm_cfi_supported = false
+#      ; with_frame_pointers = false
+#      ; ext_exe = ".exe"
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".dll"
+#      ; os_type = "Win32"
+#      ; default_executable_name = "camlprog.exe"
+#      ; systhread_supported = true
+#      ; host = "x86_64-w64-mingw32"
+#      ; target = "x86_64-w64-mingw32"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X029"
+#      ; cmi_magic_number = "Caml1999I029"
+#      ; cmo_magic_number = "Caml1999O029"
+#      ; cma_magic_number = "Caml1999A029"
+#      ; cmx_magic_number = "Caml1999Y029"
+#      ; cmxa_magic_number = "Caml1999Z029"
+#      ; ast_impl_magic_number = "Caml1999M029"
+#      ; ast_intf_magic_number = "Caml1999N029"
+#      ; cmxs_magic_number = "Caml1999D029"
+#      ; cmt_magic_number = "Caml1999T029"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = true
+#      }
+#  }
+$ (cd _build/default && C:\OCaml64\home\Amaury\.opam\4.12.0+mingw64c\bin\menhir.exe --explain --dump minic_parser.mly --base minic_parser --infer-write-query minic_parser__mock.ml.mock)
+$ (cd _build/default && C:\OCaml64\home\Amaury\.opam\4.12.0+mingw64c\bin\ocamldep.opt.exe -modules -impl minic_parser__mock.ml.mock) > _build/default/.minic.eobjs/minic_parser__mock.ml.mock.d
+$ (cd _build/default && C:\OCaml64\home\Amaury\.opam\4.12.0+mingw64c\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I .minic.eobjs/byte -open Dune__exe -short-paths -i -impl minic_parser__mock.ml.mock) > _build/default/minic_parser__mock.mli.inferred
+> File "minic_parser.mly", line 102, characters 1-7:
+> Error: This variant pattern is expected to have type expr
+>        The constructor GetTab does not belong to type expr
+[2]

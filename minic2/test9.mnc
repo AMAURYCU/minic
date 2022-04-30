@@ -1,0 +1,8 @@
+int PARAM = 5;
+
+int f() {
+  for ( PARAM = 3; PARAM < 10; PARAM = PARAM + 3) {
+    PARAM = 2;
+  }
+
+}

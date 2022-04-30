@@ -1,0 +1,8 @@
+int PARAM = 5;
+
+int f() {
+  while ( true ) {
+  PARAM += 3;
+  PARAM = 4}
+
+}
